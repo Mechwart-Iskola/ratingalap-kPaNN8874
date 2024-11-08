@@ -28,6 +28,8 @@ align-items: center;
     background-color: var(--DarkBlue);
     width: 350px;
     padding: 30px;
+    border-radius: 30px;
+
 }
 
 .star-container{
@@ -104,4 +106,16 @@ p{
 .btn:hover{
     background-color: var(--White);
     color: var(--DarkBlue);
+}
+.thankyou{
+    text-align: center;
+}
+.selectedRate{
+    margin-top: 20px;
+    color: var(--Orange);
+    background-color: var(--Star-container);
+    width: fit-content;
+    margin:20px auto 20px auto;
+    padding: 10px;
+    border-radius: 20px;
 }
